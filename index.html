@@ -24,7 +24,63 @@
 <link rel="canonical" href="https://kriauto.ma/">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <meta name="theme-color" content="#000000">
-<!-- End   --> 
+<!-- End     --> 
+ <!-- # here is script  for structured data using JSON-LD format to provide search engines with detailed information about KriAuto.ma's car rental services, including the types of cars offered, service areas, contact information, and pricing. This helps improve SEO and enhances the way the website appears in search results with rich snippets.       -->
+ <!-- # the structured data includes the business type (AutoRental), name, image, URL, contact details, description, service areas, price range, social media links, and an offer catalog showcasing some of the premium cars available for rent.       --> -->
+ <!-- # it's important to keep this structured data up-to-date with any changes in the fleet, services, or contact information to ensure accurate representation in search engine results.       --> -->
+ <script type="application/ld+json"> -->
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRental",
+  "name": "KriAuto.ma",
+  "image": "https://kriauto.ma/og-cover.jpg",
+  "url": "https://kriauto.ma/",
+  "telephone": "+212725354292",
+  "email": "contact@kriauto.ma",
+  "description": "Location de voitures premium et de luxe au Maroc avec réservation rapide via WhatsApp, livraison gratuite et assurance incluse.",
+  "areaServed": [
+    "Casablanca",
+    "Marrakech",
+    "Fès",
+    "Rabat",
+    "Tanger",
+    "Agadir"
+  ],
+  "priceRange": "$$$",
+  "sameAs": [
+    "https://wa.me/212725354292"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Flotte Premium",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Car",
+          "name": "Range Rover Sport"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Car",
+          "name": "BMW Série 5"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Car",
+          "name": "Mercedes Classe C"
+        }
+      }
+    ]
+  }
+}
+</script>
+
+<!-- # end of script  -->
 
 
     <meta charset="UTF-8">
